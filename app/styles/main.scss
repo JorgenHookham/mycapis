@@ -18,21 +18,22 @@
 
 // Variables
 
-$pink: rgb(240, 32, 81);
+$blue: rgb(0, 152, 223);
 $dark-grey: rgb(103, 103, 103);
 $off-white: rgb(225, 222, 211);
 
+$museo-stack: 'museo-slab', 'helvetica neue', helvetica, sans-serif;
 $proxima-stack: 'proxima-nova', 'helvetica neue', helvetica, sans-serif;
 
 
 
 // Base styles
 
-html { font-family: $proxima-stack; line-height: 1.5; }
+html { line-height: 1.5; }
 body { background: darken($dark-grey, 24%); font-family: $proxima-stack; color: #fff; }
 img { max-width: 100%; }
 
-h1, h2, h3, h4 { font-family: $proxima-stack; font-weight: 600; line-height: 1; text-transform: uppercase; }
+h1, h2, h3, h4 { font-family: $museo-stack; font-weight: 900; line-height: 1; text-transform: uppercase; }
 
 h1 { font-size: 30px; }
 
@@ -56,8 +57,8 @@ h4 { font-size: 14px; line-height: 18px; font-weight: 300; }
 .button:hover {
     display: block;
 
-    background: $pink;
-    border-bottom: 4px solid darken($pink, 12%);
+    background: $blue;
+    border-bottom: 4px solid darken($blue, 12%);
 
     color: #fff;
     text-transform: uppercase;
@@ -66,7 +67,7 @@ h4 { font-size: 14px; line-height: 18px; font-weight: 300; }
 }
 
 .big-button,
-.big-button:hover { @extend .button; padding: 50px 20px; border-bottom: 12px solid darken($pink, 12%); font-size: 24px; }
+.big-button:hover { @extend .button; padding: 50px 20px; border-bottom: 12px solid darken($blue, 12%); font-size: 24px; }
 
 @media (max-width: 480px) {
     .big-button,
@@ -105,23 +106,24 @@ h4 { font-size: 14px; line-height: 18px; font-weight: 300; }
 // The Hero Banner //
 /////////////////////
 
-.hero-banner { height: 290px; padding: 35px 0; background-image: url(../images/pano.jpg); }
+.hero-banner { height: 290px; padding: 60px 0 0; background-image: url(../images/pano.jpg); background-position: 50% 50%; }
 
 .hero-banner--logo {
-    width: 385px;
-    height: 290px;
+    width: 348px;
+    height: 227px;
     margin: 0 auto;
     background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
     font-size: 0;
 }
 
 @media (max-width: 767px) {
-   .hero-banner { padding: 35px 20px; width: 100%; margin-left: -20px; }
+   .hero-banner { padding: 60px 20px 0; width: 100%; margin-left: -20px; }
 }
 
 @media (max-width: 480px) {
-    .hero-banner        { height: 200px; padding: 30px 20px; width: 100%; margin-left: -20px; }
-    .hero-banner--logo  { width: 240px; height: 180px; background-image: url(../images/logo-small.png); }
+    .hero-banner        { height: 200px; padding: 60px 20px 0; width: 100%; margin-left: -20px; }
+    .hero-banner--logo  { width: 240px; height: 156px; background-image: url(../images/logo--small.png); }
 }
 
 
@@ -182,7 +184,7 @@ h4 { font-size: 14px; line-height: 18px; font-weight: 300; }
     background: $dark-grey;
 }
 
-.hero-box:nth-child(3n) > .hero-box--inner { background: $pink; }
+.hero-box:nth-child(3n) > .hero-box--inner { background: $blue; }
 
 
 // Different types of hero box
@@ -319,7 +321,7 @@ h4 { font-size: 14px; line-height: 18px; font-weight: 300; }
 .engage--thing          { position: relative; display: block; width: 25%; padding-bottom: 25%; float: left; }
 .engage--thing,
 .engage--thing:hover    { color: #fff; text-decoration: none; }
-.engage--thing--inner   { position: absolute; top: 20px; right: 20px; bottom: 20px; left: 20px; padding: 5px; background: $pink; overflow: hidden; }
+.engage--thing--inner   { position: absolute; top: 20px; right: 20px; bottom: 20px; left: 20px; padding: 5px; background: $blue; overflow: hidden; }
 .engage--thing--icon    { display: block; width: 100px; height: 100px; margin: 0 auto; }
 .engage--thing--head    {  }
 .engage--thing--note    {  }
