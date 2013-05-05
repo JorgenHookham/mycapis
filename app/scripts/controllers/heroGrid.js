@@ -28,7 +28,7 @@ saveINTEapp.controller('heroGridController',
                 imageUrl: 'people/jason-bailey.jpg',
                 type: 'photo',
                 priority: 8,
-                template: 'hero-box-templates/photo.html'
+                template: 'templates/photo.html'
             },
             {
                 quote: 'We have one of the best programs in the university, if anything it should be looked at as one of it\'s crowned jewels.',
@@ -37,7 +37,7 @@ saveINTEapp.controller('heroGridController',
                 imageUrl: 'people/parker-busswood.jpg',
                 type: 'photo',
                 priority: 2,
-                template: 'hero-box-templates/photo.html'
+                template: 'templates/photo.html'
             },
             {
                 quote: 'People from the INTE program come ready to wear many hats. Cutting this program would leave a big gap.',
@@ -46,7 +46,7 @@ saveINTEapp.controller('heroGridController',
                 imageUrl: 'people/josh-nilson.jpg',
                 type: 'photo',
                 priority: 8,
-                template: 'hero-box-templates/photo.html'
+                template: 'templates/photo.html'
             },
             {
                 quote: 'As an alumnus I stand to lose my biggest network, fresh talent coming out of the program.',
@@ -55,7 +55,7 @@ saveINTEapp.controller('heroGridController',
                 imageUrl: 'people/jorgen-hookham.jpg',
                 type: 'photo',
                 priority: 5,
-                template: 'hero-box-templates/photo.html'
+                template: 'templates/photo.html'
             },
             {
                 quote: 'The world is having an asymmetric education problem, and you actually have a program where 85% of students get a job.',
@@ -64,7 +64,7 @@ saveINTEapp.controller('heroGridController',
                 imageUrl: 'people/spencer-thompson.jpg',
                 type: 'photo',
                 priority: 6,
-                template: 'hero-box-templates/photo.html'
+                template: 'templates/photo.html'
             }
         ];
 
@@ -76,7 +76,7 @@ saveINTEapp.controller('heroGridController',
                 author: 'Dave Rankin',
                 type: 'quote',
                 priority: 1,
-                template: 'hero-box-templates/quote.html'
+                template: 'templates/quote.html'
             },
             {
                 quote: 'Coding is the new literacy.',
@@ -84,7 +84,7 @@ saveINTEapp.controller('heroGridController',
                 credential: 'CEO & Co-Founder GonnaBe',
                 type: 'quote',
                 priority: 1,
-                template: 'hero-box-templates/quote.html'
+                template: 'templates/quote.html'
             },
             {
                 quote: 'For the foreseeable future, coding is one of the most important and desirable skills there is.',
@@ -92,7 +92,7 @@ saveINTEapp.controller('heroGridController',
                 credential: 'Lead Mobile Designer, LivePerson',
                 type: 'quote',
                 priority: 3,
-                template: 'hero-box-templates/quote.html'
+                template: 'templates/quote.html'
             },
             {
                 quote: 'It\'s the battle of the tech literate vs. the tech illiterate.',
@@ -100,7 +100,7 @@ saveINTEapp.controller('heroGridController',
                 credential: 'CEO & Co-Founder GonnaBe',
                 type: 'quote',
                 priority: 7,
-                template: 'hero-box-templates/quote.html'
+                template: 'templates/quote.html'
             },
             {
                 quote: 'Learn to code. You won\'t regret it.',
@@ -108,7 +108,7 @@ saveINTEapp.controller('heroGridController',
                 credential: 'CEO & Co-Founder GonnaBe',
                 type: 'quote',
                 priority: 3,
-                template: 'hero-box-templates/quote.html'
+                template: 'templates/quote.html'
             }
         ];
 
@@ -120,7 +120,7 @@ saveINTEapp.controller('heroGridController',
             //     embedUrl: 'http://vine.co/v/b55LOA1dgJU/embed/simple',
             //     type: 'video',
             //     priority: 5,
-            //     template: 'hero-box-templates/vine.html'
+            //     template: 'templates/vine.html'
             // }
         ];
 
@@ -131,13 +131,13 @@ saveINTEapp.controller('heroGridController',
                 embedUrl: 'http://www.youtube.com/embed/NvK1F_odamo',
                 type: 'video',
                 priority: 4,
-                template: 'hero-box-templates/youtube.html'
+                template: 'templates/youtube.html'
             },
             {
                 embedUrl: 'http://www.youtube.com/embed/kJcPCIAGfeY',
                 type: 'video',
                 priority: 6,
-                template: 'hero-box-templates/youtube.html'
+                template: 'templates/youtube.html'
             }
         ];
 
