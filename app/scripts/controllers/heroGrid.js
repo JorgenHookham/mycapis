@@ -20,6 +20,7 @@ saveINTEapp.controller('heroGridController',
 
         // Hero Grid Items (photos)
 
+  
         $scope.photoBoxes = [
             {
                 quote: 'The goal is to put people in the work force and be employable, we look to these programs for our new stars.',
