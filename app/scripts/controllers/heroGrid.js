@@ -192,6 +192,81 @@ saveINTEapp.controller('heroGridController',
             }
 ];
 
+// Hero Grid Items (quote-long)
+
+        $scope.quoteBoxes = [
+            {
+                quote: 'I graduated this program in 2010. I now work for one of the biggest brands in Vancouver, and have the ability to not only switch companies, locations and jobs but also change disciplines all together. Their open-ended approach allowed me to learn much about how the world of digital presentation ties together on all the different levels.
+We\'ve been looking at increasing our talent pool at my workplace lately, to add people we trust for freelance contract work, and from having talked to a lot of professionals around this city, I can tell you, Interactive Design grads come out on top.
+If anything, expand this program to allow for more people to take it rather than cut it. I realize you\'re running a business here, and Cap U is operating at a deficit, but look for other ways to save money rather than cutting valuable educational programs that actually genuinely do what they are supposed to do.
+The more you cut, the more ultimately you will lose because your university will have nothing of value.',
+                author: 'Mike Timofiiv',
+                credential: 'Developer, Conucks',
+                type: 'quote-long',
+                priority: 1,
+                template: 'hero-box-templates/quote-long.html'
+            },
+            {
+                quote: 'This is one of the most innovative and valuable programs at Capilano University. Grads are job-ready and up to speed with highly marketable skills. As a faculty in the School of Business at CapU, I fear our business students will also lose a huge asset, not having the Interactive Design program. School of Business students have ideas but often need help on the Web or mobile development side. We just started some innovative cross-disciplinary courses like mobile app commercialization co-taught by faculty from both areas. Students asked why we can't have more courses like this and more collaboration with Interactive Design. I'm embarrassed to tell them that rather than having more of these kind of cross-disciplinary efforts with talented Interactive Design students and instructors, we won't be having any if this gets cut. Cutting the program would be a big step backwards. It's taken years to get the curriculum and approach right. It won't be something that can just be broken up and restored in pieces in different program areas. It's value is in its integrated nature. Every post-secondary institution needs a program like Interactive Design, it\'s core to the growing knowledge economy. Ironically in the School of Business we are working hard to come up with new program offerings in areas like e-marketing, social media etc. It will take a lot of time, effort, and cost and what we come up very likely won\'t be any better than what we already have in the Interactive Design program. With some business courses added in, there would be huge potential to give our grads a much better chance at employability in the growing Web and mobile sector.',
+                author: 'Cyri Jones',
+                credential: 'Capilano Unversity, School of Business',
+                type: 'quote-long',
+                priority: 1,
+                template: 'hero-box-templates/quote-long.html'
+            },
+            {
+                quote: 'I\'ve never been more excited about returning to school as I am when I think about this program. It HAS to continue. The graduates are amazing and extremely capable, fluent, and job-ready. I want to be among them and say that I\'ve had the opportunity to benefit from this program. Board of Governors, I\'m begging you to not cut this program! My future depends on it.',
+                author: 'Julien Powell',
+                credential: 'Interactive Design Student, September 2013',
+                type: 'quote-long',
+                priority: 3,
+                template: 'hero-box-templates/quote-long.html'
+            },
+            {
+                quote: 'I’m a design and creative professional. It is important to us all that this discipline continues to attract intelligent, capable and gifted practitioners, who need quality programs to learn about their chosen profession, and get mentored by seasoned industry professionals. This doesn’t just matter to the students, the faculty, and the employers and clients of these prospective students. It matters to ANYONE who could be the recipient of the messages these students may now no longer be trained to deliver competently. Keep this program.',
+                author: 'Bruce Campbell',
+                type: 'quote-long',
+                priority: 7,
+                template: 'hero-box-templates/quote-long.html'
+            },
+            {
+                quote: 'The original Applied Information Technology program helped me start a successful career as a user experience professional that\'s lasted over 14 years.
+The program has successfully re-invented itself a number of times and continues to produce excellent people who can work in a wide range of roles in the technology and design industries.
+I know a number of organizations who owe their success to INTE grads. Canada\'s interactive industry will be much, much poorer for the closure of this small, but pivotal program.',
+                author: 'Dave Robertson',
+                credential: 'Alumni',
+                type: 'quote-long',
+                priority: 3,
+                template: 'hero-box-templates/quote-long.html'
+            }
+              {
+                quote: 'I just got accepted to this course and I truly believe that it has the ability to change my life. When looking at other courses this was by far the best option. Please consider keeping this wonderful program running for future interactive designers and developers like myself.',
+                author: 'Eric Dunfield ',
+                credential: 'Interactive Design Student, September 2013',
+                type: 'quote-long',
+                priority: 6,
+                template: 'hero-box-templates/quote-long.html'
+            },
+             {
+                quote: 'This is an incredible program, one of my sons was accepted to Capilano University. I was very excited for him. This program would help him enter the workforce with an extreme knowledge base to start his career. Do not cancel this program, surely it costs more to help students when they cannot find work. Don\'t let these incredible minds go to waste.',
+                author: 'Nancy Cannon',
+                credential: 'Student\'s Parent, Interactive Design, September 2013',
+                type: 'quote-long',
+                priority: 6,
+                template: 'hero-box-templates/quote-long.html'
+            },
+             {
+                quote: 'British Columbia has a strong, yet nascent technology industry. We have birthed game changing companies like Flickr and Hootsuite and are home to countless boutique design, game and application development shops. We have talent. We have the potential. What we need to grow this potential is a government that is willing to invest in the education, training and mentoring of the future digital generation.
+The biggest issues facing academic institutions in this regard is keeping pace with the blistering speed in which this industry advances. I have seen the results of Capilano Univeristy\'s Interactive Design program. They graduate students with real world skills; high demand skills that our technology, creative and gaming industries seek. They are job ready with the skills to begin work in any number of digital disciplines.
+If we truly want to grow and nurture the future of economic and technological advancement of this province, we need to think carefully about the types of skill sets that are needed for British Columbia to compete on a global level -- and to really put our support behind growing those skills.',
+                author: 'Terry Lin',
+                credential: 'Interactive Art Director, Wasserman+Partners',
+                type: 'quote-long',
+                priority: 6,
+                template: 'hero-box-templates/quote-long.html'
+            }
+];
+
 
         // Hero Grid Items (vine embeds)
 
@@ -242,7 +317,7 @@ saveINTEapp.controller('heroGridController',
                 template: 'hero-box-templates/youtube.html'
             },
              {
-                title: 'Jeffry Huyghebaert',
+                title: 'Jeffry Huyghebaert  ',
                 embedUrl: 'http://www.youtube.com/watch?v=KyhzOiviZlg',
                 type: 'video',
                 priority: 4,
