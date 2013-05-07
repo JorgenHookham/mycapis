@@ -66,7 +66,62 @@ saveINTEapp.controller('heroGridController',
                 type: 'photo',
                 priority: 6,
                 template: 'hero-box-templates/photo.html'
+            },
+             {
+                quote: 'To cut this innovative program would not only irreparably cripple the momentum of the institution, but it would also impact the bottom line of BC\'s tech industry for years to come.',
+                author: 'Wil Arndt',
+                credential: 'Owner, Mod7',
+                imageUrl: 'people/wil-arndt.jpg',
+                type: 'photo',
+                priority: 6,
+                template: 'hero-box-templates/photo.html'
+            },
+             {
+                quote: 'We were thrilled when we discovered Capilano University\'s Interactive Design Program as they were one of the only institutions in the country with a focus in this critical and growing discipline.',
+                author: 'Molly Schneeberg',
+                credential: 'CEO, kibooco',
+                imageUrl: 'people/molly-schneeberg.jpg',
+                type: 'photo',
+                priority: 6,
+                template: 'hero-box-templates/photo.html'
+            },
+             {
+                quote: 'I honestly don\'t know what I would be doing without the skills and knowledge the program has given me under my belt.',
+                author: 'Poyan Behboudi',
+                credential: 'INTE Graduate, 2013',
+                imageUrl: 'people/poyan-behboudi.jpg',
+                type: 'photo',
+                priority: 6,
+                template: 'hero-box-templates/photo.html'
+            },
+             {
+                quote: 'Our industry is hurting for skilled practitioners and the Cap program produces quality grads who are the future of IxD. Suspending it makes little sense.',
+                author: 'Plynne Polischuik',
+                credential: 'Founder, The Republic of Quality',
+                imageUrl: 'people/lynne-polischuik.jpg',
+                type: 'photo',
+                priority: 6,
+                template: 'hero-box-templates/photo.html'
+            },
+             {
+                quote: 'My son graduated from this program and it has led him to a great career. Without the guidance and direction of the excellent instructors he could still be working at Starbucks',
+                author: 'Catherine Patterson',
+                credential: '',
+                imageUrl: 'people/sean-patterson.jpg',
+                type: 'photo',
+                priority: 6,
+                template: 'hero-box-templates/photo.html'
+            },
+             {
+                quote: 'This is an important program for the future economy of Squamish. It is important to have trained employees for the tech sector.',
+                author: 'Kerry Brown',
+                credential: 'CIRA, Board of Directors',
+                imageUrl: 'people/kerry-brown.jpg',
+                type: 'photo',
+                priority: 6,
+                template: 'hero-box-templates/photo.html'
             }
+        ];
         ];
 
         // Hero Grid Items (quote)
@@ -111,7 +166,32 @@ saveINTEapp.controller('heroGridController',
                 priority: 3,
                 template: 'hero-box-templates/quote.html'
             }
-        ];
+              {
+                quote: 'Great program - our son is a very successful grad of this program.',
+                author: 'Kent Brownlow',
+                credential: 'Parent',
+                type: 'quote',
+                priority: 6,
+                template: 'hero-box-templates/quote.html'
+            },
+             {
+                quote: 'This program is valuable to both industry and students. It is a proven winner. Cutting it is more than unfortunate but misguided.',
+                author: 'Alvin Wasserman',
+                credential: 'President,Wasserman+Partners',
+                type: 'quote',
+                priority: 6,
+                template: 'hero-box-templates/quote.html'
+            },
+             {
+                quote: 'Interactive Design is leading the charge in the cutting edge field of interactive/digital design....with a favourable reputation preceeding it.',
+                author: 'Kristen Dillon',
+                credential: 'INTE Student, September 2013',
+                type: 'quote',
+                priority: 6,
+                template: 'hero-box-templates/quote.html'
+            }
+];
+
 
         // Hero Grid Items (vine embeds)
 
@@ -136,6 +216,41 @@ saveINTEapp.controller('heroGridController',
             },
             {
                 embedUrl: 'http://www.youtube.com/embed/kJcPCIAGfeY',
+                type: 'video',
+                priority: 6,
+                template: 'hero-box-templates/youtube.html'
+            },
+            {
+                title: 'Myles Galvin, BBA',
+                embedUrl: 'http://www.youtube.com/watch?v=4W5sBDRcZvA',
+                type: 'video',
+                priority: 6,
+                template: 'hero-box-templates/youtube.html'
+            },
+             {
+                title: 'Courtney Inman',
+                embedUrl: 'http://www.youtube.com/watch?v=PRfYP8-CraU',
+                type: 'video',
+                priority: 4,
+                template: 'hero-box-templates/youtube.html'
+            },
+             {
+                title: 'Collin Stewart',
+                embedUrl: 'http://www.youtube.com/watch?v=LUiP5q2X_fU',
+                type: 'video',
+                priority: 6,
+                template: 'hero-box-templates/youtube.html'
+            },
+             {
+                title: 'Jeffry Huyghebaert',
+                embedUrl: 'http://www.youtube.com/watch?v=KyhzOiviZlg',
+                type: 'video',
+                priority: 4,
+                template: 'hero-box-templates/youtube.html'
+            },
+             {
+                title: 'Terence Mazon',
+                embedUrl: 'http://www.youtube.com/watch?v=Tai8WRDpWOc',
                 type: 'video',
                 priority: 6,
                 template: 'hero-box-templates/youtube.html'
