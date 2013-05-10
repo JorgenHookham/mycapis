@@ -93,12 +93,30 @@ saveINTEapp.controller('heroGridController',
                 type: 'photo',
                 priority: 6,
                 template: 'templates/photo.html'
+            },
+            {   quote: 'My Cap embraces the synthesis of ideas and innovation across the Faculties.',
+                author: 'Aurelea Mahood',
+                credential: 'English Faculty',
+                imageUrl: 'people/aurelea.jpg',
+                type: 'photo',
+                priority: 10,
+                template: 'templates/photo.html'
+            },  
+            {
+                quote: 'My Cap is a twenty-first century university.',
+                author: 'Joseph Fall',
+                credential: 'Computer Science faculty',
+                imageUrl: 'people/joseph.jpg',
+                type: 'photo',
+                priority: 14,
+                template: 'templates/photo.html'
             }
         ];
 
         // Hero Grid Items (quote)
 
         $scope.quoteBoxes = [
+            
             {
                 quote: 'My son graduated from this program and it has led him to a great career. Without the guidance and direction of the excellent instructors he could still be working at Starbucks',
                 author: 'Catherine Patterson',
@@ -167,6 +185,38 @@ saveINTEapp.controller('heroGridController',
                 credential: 'CEO & Co-Founder GonnaBe',
                 type: 'quote',
                 priority: 6,
+                template: 'templates/quote.html'
+            },
+            {
+                quote: 'My Cap is mind opening.',
+                author: 'Michelle Beckett',
+                credential: 'Arts & Sciences student',
+                type: 'quote',
+                priority: 11,
+                template: 'templates/quote.html'
+            }, 
+            {
+                quote: 'My Cap support students seeking opportunities for their futures.',
+                author: 'Michelle Gunness',
+                credential: 'ABE faculty',
+                type: 'quote',
+                priority: 13,
+                template: 'templates/quote.html'
+            },  
+            {
+                quote: 'My Cap is a place where learning crosses boundaries.',
+                author: 'Lyne Gareau',
+                credential: 'Languages faculty',
+                type: 'quote',
+                priority: 16,
+                template: 'templates/quote.html'
+            },
+            {
+                quote: 'I came to Capilano because I wanted a unique experience, not some cookie-cutter degree.',
+                author: 'Katelyn Savard',
+                credential: 'Jazz Studies student',
+                type: 'quote',
+                priority: 15,
                 template: 'templates/quote.html'
             }
 ];
@@ -239,7 +289,6 @@ saveINTEapp.controller('heroGridController',
 //             }
 // ];
 
-
         // Hero Grid Items (vine embeds)
 
         $scope.vineBoxes = [
@@ -276,38 +325,48 @@ saveINTEapp.controller('heroGridController',
                 template: 'templates/youtube.html'
             },
             {
-                author: 'Myles Galvin, BBA',
                 embedCode: '4W5sBDRcZvA',
+                author: 'Myles Galvin, BBA',
                 type: 'video',
                 priority: 6,
                 template: 'templates/youtube.html'
             },
             {
-                author: 'Courtney Inman',
                 embedCode: 'PRfYP8-CraU',
+                author: 'Courtney Inman',
                 type: 'video',
                 priority: 4,
                 template: 'templates/youtube.html'
             },
             {
-                author: 'Collin Stewart',
                 embedCode: 'LUiP5q2X_fU',
+                author: 'Collin Stewart',
                 type: 'video',
                 priority: 6,
                 template: 'templates/youtube.html'
             },
             {
-                author: 'Jeffry Huyghebaert',
                 embedCode: 'KyhzOiviZlg',
                 type: 'video',
                 priority: 4,
                 template: 'templates/youtube.html'
             },
             {
-                author: 'Terence Mazon',
                 embedCode: 'Tai8WRDpWOc',
                 type: 'video',
                 priority: 6,
+                template: 'templates/youtube.html'
+            },
+            {
+                embedCode: '0CLuhdxH6_s',
+                type: 'video',
+                priority: 6,
+                template: 'templates/youtube.html'
+            },
+            {
+                embedCode: 'l8mbajKlzVs',
+                type: 'video',
+                priority: 4,
                 template: 'templates/youtube.html'
             }
         ];
