@@ -22,121 +22,94 @@ saveINTEapp.controller('heroGridController',
 
         $scope.photoBoxes = [
             {
-                quote: 'The goal is to put people in the work force and be employable, we look to these programs for our new stars.',
-                author: 'Jason Bailey',
-                credential: 'CEO, East Side Games',
-                imageUrl: 'people/jason-bailey.jpg',
+                quote: 'My Cap embraces the synthesis of ideas and innovation across the Faculties.',
+                author: 'Aurelea Mahood',
+                credential: ' English Faculty',
+                imageUrl: 'people/aurelea.jpg',
                 type: 'photo',
-                priority: 8,
+                priority: 10,
                 template: 'hero-box-templates/photo.html'
-            },
+            },  
             {
-                quote: 'We have one of the best programs in the university, if anything it should be looked at as one of it\'s crowned jewels.',
-                author: 'Parker Busswood',
-                credential: 'Front-End Engineer, East Side Games',
-                imageUrl: 'people/parker-busswood.jpg',
+                quote: 'My Cap is a twenty-first century university.',
+                author: 'Joseph Fall',
+                credential: 'Computer Science faculty',
+                imageUrl: 'people/joseph.jpg',
                 type: 'photo',
-                priority: 2,
+                priority: 14,
                 template: 'hero-box-templates/photo.html'
-            },
-            {
-                quote: 'People from the INTE program come ready to wear many hats. Cutting this program would leave a big gap.',
-                author: 'Josh Nilson',
-                credential: 'COO, East Side Games',
-                imageUrl: 'people/josh-nilson.jpg',
-                type: 'photo',
-                priority: 8,
-                template: 'hero-box-templates/photo.html'
-            },
-            {
-                quote: 'As an alumnus I stand to lose my biggest network, fresh talent coming out of the program.',
-                author: 'Jørgen Hookham',
-                credential: 'Designer, Sokanu',
-                imageUrl: 'people/jorgen-hookham.jpg',
-                type: 'photo',
-                priority: 5,
-                template: 'hero-box-templates/photo.html'
-            },
-            {
-                quote: 'The world is having an asymmetric education problem, and you actually have a program where 85% of students get a job.',
-                author: 'Spencer Thompson',
-                credential: 'CEO, Sokanu',
-                imageUrl: 'people/spencer-thompson.jpg',
-                type: 'photo',
-                priority: 6,
-                template: 'hero-box-templates/photo.html'
-            }
-        ];
+            }      
+            
+            
+            ];
 
         // Hero Grid Items (quote)
 
         $scope.quoteBoxes = [
+            
             {
-                quote: 'The vast majority of graduates of this program get jobs. Good, long term jobs.',
-                author: 'Dave Rankin',
+                quote: 'My Cap is mind opening.',
+                author: 'Michelle Beckett',
+                credential: 'Arts & Sciences student',
                 type: 'quote',
-                priority: 1,
+                priority: 11,
+                template: 'hero-box-templates/quote.html'
+            }, 
+              {
+                quote: 'My Cap support students seeking opportunities for their futures.',
+                author: 'Michelle Gunness',
+                credential: 'ABE faculty',
+                type: 'quote',
+                priority: 13,
+                template: 'hero-box-templates/quote.html'
+            },  
+            {
+                quote: 'My Cap is a place where learning crosses boundaries.',
+                author: 'Lyne Gareau',
+                credential: 'Languages faculty',
+                type: 'quote',
+                priority: 16,
                 template: 'hero-box-templates/quote.html'
             },
             {
-                quote: 'Coding is the new literacy.',
-                author: 'Hank Leber',
-                credential: 'CEO & Co-Founder GonnaBe',
+                quote: 'I came to Capilano because I wanted a unique experience, not some cookie-cutter degree.',
+                author: 'Katelyn Savard',
+                credential: 'Jazz Studies student',
                 type: 'quote',
-                priority: 1,
+                priority: 15,
                 template: 'hero-box-templates/quote.html'
-            },
-            {
-                quote: 'For the foreseeable future, coding is one of the most important and desirable skills there is.',
-                author: 'Asher Hunt',
-                credential: 'Lead Mobile Designer, LivePerson',
-                type: 'quote',
-                priority: 3,
-                template: 'hero-box-templates/quote.html'
-            },
-            {
-                quote: 'It\'s the battle of the tech literate vs. the tech illiterate.',
-                author: 'Hank Leber',
-                credential: 'CEO & Co-Founder GonnaBe',
-                type: 'quote',
-                priority: 7,
-                template: 'hero-box-templates/quote.html'
-            },
-            {
-                quote: 'Learn to code. You won\'t regret it.',
-                author: 'Hank Leber',
-                credential: 'CEO & Co-Founder GonnaBe',
-                type: 'quote',
-                priority: 3,
-                template: 'hero-box-templates/quote.html'
-            }
-        ];
+            }      
+                  
+            
+            
+            
+             ];
 
         // Hero Grid Items (vine embeds)
 
         $scope.vineBoxes = [
-            // {
-            //     title: 'Glitch Mob',
-            //     embedUrl: 'http://vine.co/v/b55LOA1dgJU/embed/simple',
-            //     type: 'video',
-            //     priority: 5,
-            //     template: 'hero-box-templates/vine.html'
-            // }
+           //  {
+           //      title: 'Glitch Mob',
+           //      embedUrl: 'http://vine.co/v/b55LOA1dgJU/embed/simple',
+           //      type: 'video',
+           //      priority: 5,
+           //      template: 'hero-box-templates/vine.html'
+           //  }
         ];
 
         // Hero Grid Items (youtube embeds)
 
         $scope.youtubeBoxes = [
             {
-                embedUrl: 'http://www.youtube.com/embed/NvK1F_odamo',
+                embedUrl: 'http://www.youtube.com/embed/0CLuhdxH6_s',
                 type: 'video',
-                priority: 4,
+                priority: 6,
                 template: 'hero-box-templates/youtube.html'
             },
             {
-                embedUrl: 'http://www.youtube.com/embed/kJcPCIAGfeY',
+                embedUrl: 'http://www.youtube.com/embed/l8mbajKlzVs',
                 type: 'video',
-                priority: 6,
+                priority: 4,
                 template: 'hero-box-templates/youtube.html'
             }
         ];
