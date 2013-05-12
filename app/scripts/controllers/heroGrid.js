@@ -99,7 +99,16 @@ saveINTEapp.controller('heroGridController',
                 credential: 'English Faculty',
                 imageUrl: 'people/aurelea.jpg',
                 type: 'photo',
-                priority: 10,
+                priority: 32,
+                template: 'templates/photo.html'
+            },
+            {
+                quote: 'My Cap is our Cap.',
+                author: 'Charlotte Burke',
+                credential: 'Costuming faculty',
+                imageUrl: 'people/faculty.jpg',
+                type: 'photo',
+                priority: 34,
                 template: 'templates/photo.html'
             },  
             {
@@ -108,7 +117,7 @@ saveINTEapp.controller('heroGridController',
                 credential: 'Computer Science faculty',
                 imageUrl: 'people/joseph.jpg',
                 type: 'photo',
-                priority: 14,
+                priority: 42,
                 template: 'templates/photo.html'
             }
         ];
@@ -191,7 +200,7 @@ saveINTEapp.controller('heroGridController',
                 author: 'Michelle Beckett',
                 credential: 'Arts & Sciences student',
                 type: 'quote',
-                priority: 11,
+                priority: 40,
                 template: 'templates/quote.html'
             }, 
             {
@@ -199,7 +208,7 @@ saveINTEapp.controller('heroGridController',
                 author: 'Michelle Gunness',
                 credential: 'ABE faculty',
                 type: 'quote',
-                priority: 13,
+                priority: 41,
                 template: 'templates/quote.html'
             },  
             {
@@ -207,7 +216,7 @@ saveINTEapp.controller('heroGridController',
                 author: 'Lyne Gareau',
                 credential: 'Languages faculty',
                 type: 'quote',
-                priority: 16,
+                priority: 43,
                 template: 'templates/quote.html'
             },
             {
@@ -215,9 +224,59 @@ saveINTEapp.controller('heroGridController',
                 author: 'Katelyn Savard',
                 credential: 'Jazz Studies student',
                 type: 'quote',
-                priority: 15,
+                priority: 44,
+                template: 'templates/quote.html'
+            },
+            {
+                quote: 'All but nature originates on the drawing board . . . . It is a travesty to deny our creative souls!',
+                author: 'Mary Blaze',
+                credential: 'Community voice',
+                type: 'quote',
+                priority: 31,
+                template: 'templates/quote.html'
+            },
+            {
+                quote: 'Artists and their work encourage us to reflect on the difficult and complicated usses that are part of modern life.',
+                author: 'Karin Jones',
+                credential: 'Community voice',
+                type: 'quote',
+                priority: 33,
+                template: 'templates/quote.html'
+            },
+            {
+                quote: 'Studio Arts are fundamental to developing an educated, flexible, creative future thinkers, producers, and entrepreneurs.',
+                author: 'Carla Wolf',
+                credential: 'Community voice',
+                type: 'quote',
+                priority: 34,
+                template: 'templates/quote.html'
+            },
+            {
+                quote: 'My Cap is thoughtful not hasty.',
+                author: 'Janet Waters',
+                credential: 'Psychology faculty',
+                type: 'quote',
+                priority: 35,
+                template: 'templates/quote.html'
+            },
+            {
+                quote: 'My Cap builds upon the expertise of its community.',
+                author: 'Cheryl Schreader',
+                credential: 'Geography faculty',
+                type: 'quote',
+                priority: 36,
+                template: 'templates/quote.html'
+            },
+            {
+                quote: 'My Cap is thoughtful not hasty.',
+                author: 'Janet Waters',
+                credential: 'Community voice',
+                type: 'quote',
+                priority: 37,
                 template: 'templates/quote.html'
             }
+
+
 ];
 
 // Hero Grid Items (quote-long)
@@ -359,15 +418,22 @@ saveINTEapp.controller('heroGridController',
             {
                 embedCode: '0CLuhdxH6_s',
                 type: 'video',
-                priority: 6,
+                priority: 43,
                 template: 'templates/youtube.html'
             },
             {
                 embedCode: 'l8mbajKlzVs',
                 type: 'video',
-                priority: 4,
+                priority: 2,
+                template: 'templates/youtube.html'
+            },
+            {
+                embedCode: 'bGYjpQQXpTI',
+                type: 'video',
+                priority: 3,
                 template: 'templates/youtube.html'
             }
+
         ];
 
         // Concatenating hero box sources and sorting
