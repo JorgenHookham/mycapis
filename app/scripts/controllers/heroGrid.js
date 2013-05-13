@@ -94,12 +94,46 @@ saveINTEapp.controller('heroGridController',
             //     priority: 6,
             //     template: 'templates/photo.html'
             // },
+            {   quote: 'My Cap works together to shape the university',
+                author: 'Bob Sherrin',
+                credential: 'English faculty',
+                imageUrl: 'people/bob-sherrin.jpg',
+                type: 'photo',
+                priority: 28,
+                template: 'templates/photo.html'
+            },
+            {
+                quote: 'My Cap builds upon the expertise of its community.',
+                author: 'Cheryl Schreader',
+                credential: 'Geography faculty',
+                imageUrl: 'people/cheryl-schreader.jpg',
+                type: 'photo',
+                priority: 23,
+                template: 'templates/photo.html'
+            },
+            {   quote: 'My Cap values and supports creative connections between its programs and Faculties.',
+                author: 'Sylvia Kind',
+                credential: 'ECCE faculty',
+                imageUrl: 'people/sylvia-kind.jpg',
+                type: 'photo',
+                priority: 21,
+                template: 'templates/photo.html'
+            },
             {   quote: 'My Cap embraces the synthesis of ideas and innovation across the Faculties.',
                 author: 'Aurelea Mahood',
                 credential: 'English Faculty',
                 imageUrl: 'people/aurelea.jpg',
                 type: 'photo',
                 priority: 32,
+                template: 'templates/photo.html'
+            },
+            {
+                quote: 'My Cap is thoughtful not hasty.',
+                author: 'Janet Waters',
+                credential: 'Psychology faculty',
+                imageUrl: 'people/janet-waters.jpg',
+                type: 'photo',
+                priority: 35,
                 template: 'templates/photo.html'
             },
             {
@@ -196,6 +230,110 @@ saveINTEapp.controller('heroGridController',
             //     template: 'templates/quote.html'
             // },
             {
+                quote: "My Cap solves problems creatively.",
+                author: 'Nancy Nowlan',
+                credential: 'Business faculty',
+                type: 'quote',
+                priority: 33,
+                template: 'templates/quote.html'
+            }, 
+            {
+                quote: "My Cap values the diversity of our intellectual fabric.",
+                author: 'Michael Begg',
+                credential: 'Legal Studies faculty',
+                type: 'quote',
+                priority: 35,
+                template: 'templates/quote.html'
+            }, 
+            {
+                quote: "My Cap supports students with their assignments.",
+                author: 'Faculty Help Desk',
+                credential: 'Computer Learning Centre',
+                type: 'quote',
+                priority: 30,
+                template: 'templates/quote.html'
+            }, 
+             {
+                quote: "My Cap is a place where learning crosses boundaries.",
+                author: 'Lyne Gareau',
+                credential: 'Languages faculty',
+                type: 'quote',
+                priority: 29,
+                template: 'templates/quote.html'
+            }, 
+            {
+                quote: "Hold fire and think.",
+                author: 'Barry Magrill',
+                credential: 'Community Voice',
+                type: 'quote',
+                priority: 28,
+                template: 'templates/quote.html'
+            }, 
+            {
+                quote: "My Cap is a teaching-focused university.",
+                author: 'David Rankin',
+                credential: 'Computer Learning Centre faculty',
+                type: 'quote',
+                priority: 27,
+                template: 'templates/quote.html'
+            }, 
+            {
+                quote: "My Cap has a responsibility to students in a world where technology isn't going anywhere.",
+                author: 'David Ravnsborg',
+                credential: 'Former Student',
+                type: 'quote',
+                priority: 11,
+                template: 'templates/quote.html'
+            }, 
+            {
+                quote: 'Computer science inspired me and opened my eyes to a world of possibilities.',
+                author: 'Kenny MacKenzie',
+                credential: 'Former Student',
+                type: 'quote',
+                priority: 10,
+                template: 'templates/quote.html'
+            }, 
+            {
+                quote: 'My Cap is a community of collaborators.',
+                author: 'Sky Morfopoulos',
+                credential: 'Liberal Studies student',
+                type: 'quote',
+                priority: 25,
+                template: 'templates/quote.html'
+            }, 
+            {
+                quote: 'My Cap knows interdisciplinarity needs diversity.',
+                author: 'Tania Alekson',
+                credential: 'Capilano University Librarian',
+                type: 'quote',
+                priority: 24,
+                template: 'templates/quote.html'
+            }, 
+            {
+                quote: 'The creative economy is the only industry that is infinitely sustainable.',
+                author: 'Tetsuomi Anzai',
+                credential: 'Community voice',
+                type: 'quote',
+                priority: 28,
+                template: 'templates/quote.html'
+            }, 
+            {
+                quote: 'Support for arts and culture is key to our diverse and unique society in Canada.',
+                author: 'Kristin Bingeman',
+                credential: 'Community voice',
+                type: 'quote',
+                priority: 22,
+                template: 'templates/quote.html'
+            }, 
+            {
+                quote: 'My Capilano supports all forms of art. It doesn’t view the arts as frivolous in times of austerity.',
+                author: 'Marilyn Carpenter',
+                credential: 'Liberal Studies student',
+                type: 'quote',
+                priority: 20,
+                template: 'templates/quote.html'
+            }, 
+            {
                 quote: 'My Cap is mind opening.',
                 author: 'Michelle Beckett',
                 credential: 'Arts & Sciences student',
@@ -251,30 +389,7 @@ saveINTEapp.controller('heroGridController',
                 priority: 34,
                 template: 'templates/quote.html'
             },
-            {
-                quote: 'My Cap is thoughtful not hasty.',
-                author: 'Janet Waters',
-                credential: 'Psychology faculty',
-                type: 'quote',
-                priority: 35,
-                template: 'templates/quote.html'
-            },
-            {
-                quote: 'My Cap builds upon the expertise of its community.',
-                author: 'Cheryl Schreader',
-                credential: 'Geography faculty',
-                type: 'quote',
-                priority: 36,
-                template: 'templates/quote.html'
-            },
-            {
-                quote: 'My Cap is thoughtful not hasty.',
-                author: 'Janet Waters',
-                credential: 'Community voice',
-                type: 'quote',
-                priority: 37,
-                template: 'templates/quote.html'
-            }
+                               
 
 
 ];
@@ -418,13 +533,13 @@ saveINTEapp.controller('heroGridController',
             {
                 embedCode: '0CLuhdxH6_s',
                 type: 'video',
-                priority: 43,
+                priority: 32,
                 template: 'templates/youtube.html'
             },
             {
                 embedCode: 'l8mbajKlzVs',
                 type: 'video',
-                priority: 2,
+                priority: 26,
                 template: 'templates/youtube.html'
             },
             {
